@@ -64,5 +64,3 @@ Start/Stop Rich Presence: Click the "Start" button to begin updating your Rich P
 Saving Your Configuration: When you close the application, your settings will be automatically saved to the config.json file for future use.
 
 Accessing the Tutorial: Click the "Tutorial" button to view the step-by-step guide on setting up your Discord application for Rich Presence.
-
-Opening External Links: Use the icons to open your YouTube, GitHub, or Linktree pages directly in your browser.
