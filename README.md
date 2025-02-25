@@ -26,7 +26,7 @@ You can install these dependencies using `pip`:
 
 ```bash
 pip install PyQt5 pypresence
-
+```
 ## Code Overview
 Loading and Saving Configuration:
 
