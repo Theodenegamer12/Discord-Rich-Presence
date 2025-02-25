@@ -1,29 +1,33 @@
 # Discord Rich Presence Setup Application
-This application allows you to set up and manage Discord Rich Presence for your application or game. It provides a graphical user interface (GUI) built using PyQt5 that allows you to input various data for customizing the Rich Presence.
 
-Features
-Start/Stop Rich Presence: Allows you to start and stop the updating of your Discord Rich Presence.
-Real-Time Rich Presence Updates: Updates your Discord status in real-time based on the information you provide.
-Customizable Fields: Customize various fields such as:
-Client ID (required)
-State (the text that appears under the username)
-Details (the main text displayed in the Rich Presence)
-Large and Small Image (displayed images in your Rich Presence)
-Large and Small Text (associated text with the images)
-Auto-Save Configuration: The app will save your configuration to a config.json file for easy reuse.
-Tutorial: Access a detailed tutorial that guides you through the process of setting up your Discord Developer Portal application for Rich Presence.
-Quick Access to Discord Developer Portal: Directly open the Discord Developer Portal to manage your application.
-Custom Buttons: Includes buttons for direct links to external resources like YouTube, GitHub, and Linktree.
-Dependencies
-PyQt5: Python bindings for Qt5, used for building the GUI.
-pypresence: A Python library for interacting with Discord's Rich Presence API.
-You can install these dependencies using pip:
+This application allows you to set up and manage Discord Rich Presence for your application or game. It provides a graphical user interface (GUI) built using **PyQt5** that allows you to input various data for customizing the Rich Presence.
 
-bash
-Copier
-Modifier
+## Features
+
+- **Start/Stop Rich Presence**: Allows you to start and stop the updating of your Discord Rich Presence.
+- **Real-Time Rich Presence Updates**: Updates your Discord status in real-time based on the information you provide.
+- **Customizable Fields**: Customize various fields such as:
+  - Client ID (required)
+  - State (the text that appears under the username)
+  - Details (the main text displayed in the Rich Presence)
+  - Large and Small Image (displayed images in your Rich Presence)
+  - Large and Small Text (associated text with the images)
+- **Auto-Save Configuration**: The app will save your configuration to a `config.json` file for easy reuse.
+- **Tutorial**: Access a detailed tutorial that guides you through the process of setting up your Discord Developer Portal application for Rich Presence.
+- **Quick Access to Discord Developer Portal**: Directly open the Discord Developer Portal to manage your application.
+- **Custom Buttons**: Includes buttons for direct links to external resources like YouTube, GitHub, and Linktree.
+
+## Dependencies
+
+- **PyQt5**: Python bindings for Qt5, used for building the GUI.
+- **pypresence**: A Python library for interacting with Discord's Rich Presence API.
+
+You can install these dependencies using `pip`:
+
+```bash
 pip install PyQt5 pypresence
-Code Overview
+
+## Code Overview
 Loading and Saving Configuration:
 
 The application loads and saves the configuration to a config.json file. This file contains all the parameters for the Discord Rich Presence setup.
