@@ -2,7 +2,7 @@
 
 This application allows you to set up and manage Discord Rich Presence for your application or game. It provides a graphical user interface (GUI) built using **PyQt5** that allows you to input various data for customizing the Rich Presence.
 
-![image](https://github.com/user-attachments/assets/49e6f64e-3f6f-4256-b9df-dc3d71aab126)
+![image](https://github.com/user-attachments/assets/780ea96f-5e0b-4b55-9695-6ab5684de63c)
 
 ## Features
 
