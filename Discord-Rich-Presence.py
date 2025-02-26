@@ -112,7 +112,6 @@ window.setWindowTitle("Discord Rich Presence Setup")
 window.setFixedSize(500, 500)
 window.setStyleSheet("background-color: #f0f0f0; font-family: Arial, sans-serif;")
 
-# Set the icon for the window in the taskbar
 window.setWindowIcon(QIcon("icons/Discord-Rich-Presence_icon.png"))
 
 layout = QVBoxLayout()
